@@ -3,6 +3,6 @@ services:
   monero:
     tty: true
     build: .
-    image: docker.io/vtorhonen/ez-docker-monero:0.11.0.0
+    image: usrcoin/ezmonerod:1.0.0
     volumes:
-     - ./data:/root/.bitmonero
+     - /netdisk/data/bitmonero:/root/.bitmonero
