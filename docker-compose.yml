@@ -6,3 +6,4 @@ services:
     image: usrcoin/ezmonerod:1.0.0
     volumes:
      - /netdisk/data/bitmonero:/root/.bitmonero
+     - ./wallets:/wallets
