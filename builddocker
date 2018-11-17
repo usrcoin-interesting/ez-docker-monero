@@ -1,0 +1,1 @@
+docker build -t alex2006hw/osxmonero:1.0.0 .

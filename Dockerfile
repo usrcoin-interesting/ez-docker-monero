@@ -1,8 +1,8 @@
 FROM debian:jessie-slim as builder
 MAINTAINER Ville Törhönen <ville@torhonen.fi>
 
-ENV MONERO_VERSION 0.11.1.0
-ENV MONERO_SHA256 6581506f8a030d8d50b38744ba7144f2765c9028d18d990beb316e13655ab248
+ENV MONERO_VERSION 0.11.0.0
+ENV MONERO_SHA256 fa7742c822f3c966aa842bf20a9920803d690d9db02033d9b397cefc7cc07ff4
 
 # Install dependencies
 # Separate layer so we can cache things

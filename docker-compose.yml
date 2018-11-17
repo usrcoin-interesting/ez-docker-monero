@@ -3,7 +3,6 @@ services:
   monero:
     tty: true
     build: .
-    image: usrcoin/ezmonerod:1.0.0
+    image: alex2006hw/osxmonero:1.0.0
     volumes:
-     - /netdisk/data/bitmonero:/root/.bitmonero
-     - ./wallets:/wallets
+     - ./data:/root/.bitmonero
